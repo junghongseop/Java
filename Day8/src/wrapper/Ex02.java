@@ -1,6 +1,6 @@
 package wrapper;
 
-public class Exe02 {
+public class Ex02 {
 	public static void main(String[] args) {
 		//문자열 -> 정수
 		String str1 = "10";
