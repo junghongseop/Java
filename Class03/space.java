@@ -10,14 +10,14 @@ public class space {
                 1.8982E27, 5.6834E26, 8.6810E25 ,1.02413E26};
 
         // Print all planet names
-        System.out.println("Planet Names:");
+        System.out.println("행성 이름:");
         for (String name : planetNames) {
             System.out.println(name);
         }
 
         // Get user input for a planet name
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Enter a planet name: ");
+        System.out.print("행성 이름 입력: ");
         String inputName = scanner.nextLine();
 
         // Find the index of the entered planet name (case-insensitive)
@@ -31,13 +31,13 @@ public class space {
 
         if (index != -1) {
             // Print the information of the entered planet
-            System.out.println("Planet Information:");
-            System.out.println("Name: " + planetNames[index]);
-            System.out.println("Size: " + planetSizes[index] + " km");
-            System.out.println("Mass: " + planetMasses[index] + " kg");
+            System.out.println("행성 정보:");
+            System.out.println("이름: " + planetNames[index]);
+            System.out.println("크기: " + planetSizes[index] + " km");
+            System.out.println("질량: " + planetMasses[index] + " kg");
         } else {
             // If the entered name is not found in the array
-            System.out.println("Invalid input or unknown planet.");
+            System.out.println("존재 하지 않는 행성");
         }
     }
 }
