@@ -12,7 +12,7 @@ public class call_by_reference {
         char arr[] = {'H', 'e', 'l', 'l', 'o', ' ', 'Y', 'o', 'o', 'n', 's', 'i', 'k'};
 
         replaceSpace(arr);
-        for( char c : arr ) System.out.print(c);
+        for(char c : arr) System.out.print(c);
 
     }
 }
