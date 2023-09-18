@@ -23,7 +23,7 @@ class ExternalCallMethods_{
             System.out.println("잘못된 입력");
             return;
         }
-        System.out.println(m + "원입니다.");
+        System.out.println(m + "월 입니다.");
     }
 }
 public class ExternalCallMethods {
