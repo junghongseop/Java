@@ -6,10 +6,10 @@ class Car{
     int number;
 
     // 디폴트 생서자
-//    public Car(){
-//        this.name = "car";
-//        this.number = 1234;
-//    }
+    //  public Car(){
+    //    this.name = "car";
+    //    this.number = 1234;
+    // }
     // 매개변수 2개짜리 생성자
     public Car(String name, int number) {
         this.name = name;
