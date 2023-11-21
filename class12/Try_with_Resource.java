@@ -1,4 +1,4 @@
-package Class12;
+package class12;
 
 import java.io.IOException;
 import java.io.InputStreamReader;
