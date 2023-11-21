@@ -1,7 +1,7 @@
-package Class01;
+package class01;
 import javax.swing.JOptionPane;
 
-public class practice01 {
+public class Practice01 {
     public static void main(String[] args){
 
         int n1, n2;

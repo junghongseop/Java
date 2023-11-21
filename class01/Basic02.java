@@ -1,7 +1,7 @@
-package Class01;
+package class01;
 import java.util.Scanner;
 
-public class basic02 {
+public class Basic02 {
     public static void main(String[] args) {
         String name;
         int age;
