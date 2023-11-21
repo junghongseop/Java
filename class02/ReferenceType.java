@@ -1,6 +1,6 @@
-package Class02;
+package class02;
 
-public class referenceType {
+public class ReferenceType {
     public static void main(String[] args) {
         String[] users = new String[3];
         users[0] = "egoing";

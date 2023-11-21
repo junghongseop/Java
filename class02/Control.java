@@ -1,6 +1,6 @@
-package Class02;
+package class02;
 
-public class control {
+public class Control {
     public static void main(String[] args) {
         System.out.println(1);
         System.out.println("=== while ===");
